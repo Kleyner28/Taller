@@ -566,53 +566,5 @@ public class Controlar {
         }
 
     }
-
-//    public void menuIMC(int d) {
-//
-//        try {
-//
-//            d = v.getValidateIdPerson(String.valueOf(d));
-//
-//            if (users.isEmpty()) {
-//
-//                JOptionPane.showMessageDialog(null, "No hay usuarios "
-//                        + "registrados",
-//                        "HOSPITAL GENERAL", JOptionPane.ERROR_MESSAGE);
-//                this.loadMenu();
-//
-//            } else {
-//
-//                for (int i = 0; i < users.size(); i++) {
-//
-//                    if (d == users.get(i).getIdentificacion()) {
-//
-//                        int op = Integer.parseInt(JOptionPane.
-//                                showInputDialog(null,
-//                                        "---Historial--- \n"
-//                                        + "1.Registrar masa corporal\n"
-//                                        + "2.Ver Indice de masa corporal\n"
-//                                        + "Digite una de las opciones",
-//                                        "HOSPITAL GENERAL"
-//                                        + "", JOptionPane.PLAIN_MESSAGE));
-//
-//                        this.registerimc(op);
-//
-//                    } else if (d != users.get(i).getIdentificacion()) {
-//
-//                        JOptionPane.showMessageDialog(null, "Usted no ha sido "
-//                                + "registrado", "HOSPITAL GENERAL",
-//                                JOptionPane.WARNING_MESSAGE);
-//                        this.loadMenu();
-//
-//                    }
-//
-//                }
-//
-//            }
-//
-//        } catch (HeadlessException | NumberFormatException e) {
-//            this.loadMenu();
-//        }
-//
-//    }
+    
 }
